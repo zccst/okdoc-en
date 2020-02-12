@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-OKChain documentation
+OKChain Documentation
 ===============
 
 Quick start
