@@ -4,48 +4,48 @@
    contain the root `toctree` directive.
 
 
-OKChain介绍文档
+OKChain documentation
 ===============
 
-快速开始
+Quick start
 --------
 
--  想要快速了解OKChain请看\ `这里 <getting-start/introduction.html>`__
--  快速安装请看\ `这里 <getting-start/install.html>`__
--  快速数字资产发行和数字资产交易对申请请看\ `这里 <getting-start/ico.html>`__
+-  Visit \ `Here <getting-start/introduction.html>`__ to have a quick understanding of OKChain
+-  Visit \ `Here <getting-start/install.html>`__ for quick installation
+-  Visit \ `Here <getting-start/ico.html>`__ for quick issue and listing of tokens
 
-接口服务
+API service
 --------
 
--  API接口请查看\ `这里 <api/http.html>`__
--  RPC接口请查看\ `这里 <api/node_rpc.html>`__
+-  Visit \ `Here <api/http.html>`__ for API details
+-  Visit \ `Here <api/node_rpc.html>`__ for details of node RPC
 
 DEX
 ---
 
-DEX是基于OKChain建立的去中心化交易系统。采用链上撮合和链上订单簿的设计。
+DEX is a decentralized trading system developed based on OKChain where an order matching engine and an orderbook are available on-chain.
 
--  关于集合竞价请看\ `这里 <trade/periodic_auction.html>`__
--  关于手续费请看\ `这里 <fee.html>`__
+-  Visit \ `Here <trade/periodic_auction.html>`__ for details of call auction
+-  Visit \ `Here <fee.html>`__ for fee details
 
-版本
+Version
 ----
 
-此文档对应程序的版本为：0.1
+The version of the program relating to this documentation is: 0.1
 
 
 
 
 
 
-.. _这里: getting-start/introduction.md
+.. _Here: getting-start/introduction.md
 
 Contents
 ========
 
 .. toctree::
    :maxdepth: 3
-   :caption: 快速开始
+   :caption: Quick start
 
    getting-start/introduction
 
@@ -53,7 +53,7 @@ Contents
 
 .. toctree::
    :maxdepth: 3
-   :caption: 用户
+   :caption: User
 
    getting-start/install
    getting-start/join_testnet
@@ -63,7 +63,7 @@ Contents
 
 .. toctree::
    :maxdepth: 3
-   :caption: 商户
+   :caption: Merchant
 
    getting-start/ico
 
@@ -71,7 +71,7 @@ Contents
 
 .. toctree::
    :maxdepth: 3
-   :caption: 概念
+   :caption: Concepts
 
    concepts/general-concepts
    concepts/sentry-nodes
@@ -85,7 +85,7 @@ Contents
 
 .. toctree::
    :maxdepth: 3
-   :caption: 功能模块
+   :caption: Functional Module
 
    features/account
    features/asset
@@ -99,7 +99,7 @@ Contents
 
 .. toctree::
    :maxdepth: 3
-   :caption: 命令行客户端
+   :caption: Command line client
 
    getting-start/command/account
    getting-start/command/token
@@ -112,7 +112,7 @@ Contents
 
 .. toctree::
    :maxdepth: 3
-   :caption: API服务
+   :caption: API Service
 
    api/http
    api/node_rpc
@@ -123,7 +123,7 @@ Contents
 
 .. toctree::
    :maxdepth: 3
-   :caption: 工具
+   :caption: Tools
 
    tools/monitor
    tools/command
@@ -132,6 +132,6 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: 常见问题
+   :caption: FAQ
 
    faq.md
