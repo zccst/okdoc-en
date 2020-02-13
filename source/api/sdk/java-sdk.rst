@@ -320,78 +320,100 @@ Obtain information on a single cryptocurrency of a user
 
         public BaseModel getAccountToken(String address, String symbol) throws NullPointerException;
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters.
+
 Obtain information on all cryptocurrencies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getTokens();
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters
+
 Obtain information on a single cryptocurrency
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getToken(String symbol) throws NullPointerException;
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters
+
 Obtain information on all trading pairs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getProducts();
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters 
+
 Obtain information on market depth
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getDepthBook(String product) throws NullPointerException;
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters 
+
 Obtain candlestick data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getCandles(String granularity, String instrumentId, String size) throws NullPointerException;
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters 
+
 Obtain all market data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getTickers(String count);
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters 
+
 Obtain the latest transaction history of a trading pair
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
     public BaseModel getMatches(String product, String start, String end, String page, String perPage) throws NullPointerException;
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters 
+
 Unfilled order
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getOrderListOpen(RequestOrderListOpenParams params) throws NullPointerException;
 
-Refer to http api description for parameters and return parameters ###
-order
+Refer to http api description for parameters and return parameters 
+
+Past order
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getOrderListClosed(RequestOrderListClosedParams params) throws NullPointerException;
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters 
+
 Obtain transaction breakdown
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 
         public BaseModel getDeals(RequestDealsParams params) throws NullPointerException;
 
-Refer to http api description for parameters and return parameters ###
+Refer to http api description for parameters and return parameters 
+
 Obtain transaction records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: java
 

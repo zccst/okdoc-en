@@ -1,15 +1,20 @@
-## websocket v1-data subscription format ## subscription details
+websocket v1-data subscription format
+---------------------------------------------
 
-**1. Address：**
+subscription details
+---------------------------------------------
+
+1. Address：
+~~~~~~~~~~~~
 
 Online: (under development)
 
-**2. Format**
+2. Format
+~~~~~~~~~~~~
 
 Request format:
 
 ::
-
 
     {"op": "<value>", "args": ["<value1>","<value2>"]}
 
@@ -37,7 +42,8 @@ failed response format:
 
     {"event":"error","message":"<error_message>","errorCode":"<errorCode>"}
 
-**3. Subscription**
+3. Subscription
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 channel is the specific name of the business. If the name of channel
 consists of more than one words, they will be connected with an
@@ -66,7 +72,8 @@ response:
 
      {"table":"spot/candle60s","data":[{"candle":["2018-12-20T06:18:00.000Z","8.8","8.8","8.8","8.8","0"],"instrument_id":"BCOIN-USDT"}]}
 
-**4. Unsubscription**
+4. Unsubscription
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Example:
 
@@ -83,7 +90,8 @@ Response:
     {"event":"unsubscribe","channel":"spot/ticker:ACOIN-USDT"}
     {"event":"unsubscribe","channel":"spot/candle60s:ACOIN-USDT"}
 
-**5. Login**
+5. Login
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Login subscription format:
 
@@ -116,7 +124,8 @@ details are shown below.
 .. figure:: ../img/detail.png
    :alt:
 
-**6. Checksum**
+6. Checksum
+~~~~~~~~~~~~
 
 This function helps users verify the accuracy of market depth data.
 
@@ -247,7 +256,7 @@ public channels
 -  dex\_spot/candle43200s // 12 hrs
 -  dex\_spot/candle86400s // 1 day
 -  dex\_spot/candle604800s // 1 week
--  **dex\_spot/matches // transaction information **
+-  **dex\_spot/matches // transaction information**
 -  dex\_spot/optimized\_depth // depth data, 200 entries for the first
    time, then incremental
 -  dex\_spot/account // account information, subscription by

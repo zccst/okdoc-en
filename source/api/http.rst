@@ -253,8 +253,7 @@ API parameters:
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "code": 0,
@@ -295,8 +294,7 @@ pieces of candlestick data, default = 100 \|
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "code": 0,#0:Successful, others: failed
@@ -331,8 +329,7 @@ API parameters:
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "code": 0,
@@ -379,7 +376,6 @@ API parameters:
 Response:
 
 ::
-
 
     {
       "code": 0,
@@ -464,7 +460,6 @@ information signature)
 
 ::
 
-
     {
         "account_number": "0",
         "chain_id": "okchain",
@@ -482,8 +477,7 @@ information signature)
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "height": "97",
@@ -626,8 +620,7 @@ post order:
 Signature: (use the private key to generate a signature on the
 information signature)
 
-.. code:: Response
-
+.. code:: json
 
     {
         "account_number": "0",
@@ -649,8 +642,7 @@ information signature)
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "height": "96",
@@ -712,8 +704,7 @@ all trading pair orders
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "code": "0",
@@ -779,8 +770,7 @@ orders
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "code": "0",
@@ -854,7 +844,7 @@ API parameters:
 
 Response:
 
-.. code:: Response
+.. code:: json
 
     {
         "code": 0,
@@ -911,8 +901,7 @@ API parameters:
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "code": 0,
@@ -980,8 +969,7 @@ API parameters:
 
 Response:
 
-.. code:: Response
-
+.. code:: json
 
     {
         "code": 0,
