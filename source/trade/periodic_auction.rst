@@ -19,7 +19,7 @@ so as to ensure trading fairness.
 Matching process
 ----------------
 
-.. figure:: ../img/match.png
+.. figure:: /img/match.png
    :alt: match
 
    match
