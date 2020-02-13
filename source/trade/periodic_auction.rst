@@ -19,7 +19,7 @@ so as to ensure trading fairness.
 Matching process
 ----------------
 
-.. figure:: /img/match.png
+.. figure:: ../img/match.png
    :alt: match
 
    match
@@ -67,7 +67,7 @@ Benchmark price selection algorithm
       is no obvious buying or selling pressure. Take the latest traded
       price as the reference price.
 
-.. figure:: /img/matchPrice.png
+.. figure:: ../img/matchPrice.png
    :alt: matchPrice
 
    matchPrice
